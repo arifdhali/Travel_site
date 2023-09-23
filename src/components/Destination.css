@@ -1,0 +1,31 @@
+.imges img {
+    max-width: 400px;
+    width: 100%;
+    min-height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.destination p {
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(102, 97, 97) !important;
+}
+
+
+.margin_top {
+    padding: 100px 0;
+}
+
+.margin_t {
+    margin-top: -50px;
+}
+
+.first-des-reverse {
+    flex-direction: row-reverse;
+}

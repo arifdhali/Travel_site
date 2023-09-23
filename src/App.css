@@ -1,0 +1,18 @@
+.sub_heading {
+    font-size: clamp(25px, 4vw, 45px);
+    color: #000;
+    text-align: center;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: clamp(25px, 4vw, 36px);
+    color: rgba(var(--bs-link-color-rgb));
+}
+
+.sub_para {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(102, 97, 97) !important;
+}

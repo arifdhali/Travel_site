@@ -1,0 +1,87 @@
+.hero {
+    max-width: 100%;
+    width: auto;
+    height: 100vh;
+}
+
+.heroImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero_inner {
+    height: 65vh;
+    width: 100%;
+    position: relative;
+}
+
+
+.hero {
+    position: relative;
+    width: 100%;
+}
+
+.hero::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    z-index: 11;
+}
+
+h1 {
+    font-size: clamp(28px, 5vw, 60px) !important;
+    font-weight: 600;
+    color: var(--primary-color) !important;
+    -webkit-background-clip: text;
+
+}
+
+p {
+    font-size: clamp(16px, 3.5vw, 30px);
+    font-weight: 500;
+    color: rgb(0, 132, 255) !important;
+}
+
+.hero-text .show {
+    display: inline-block;
+    text-decoration: none;
+    padding: .5rem 0;
+    min-width: 150px;
+    background: #fff;
+    color: rgb(0, 132, 255) !important;
+    font-weight: 600;
+    border: 1px solid #fff;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+}
+
+.hero-text .show:hover {
+    border: 1px solid rgb(0, 132, 255);
+    background: transparent;
+    color: var(--primary-color) !important;
+}
+
+.hero-text .hide {
+    display: none;
+}
