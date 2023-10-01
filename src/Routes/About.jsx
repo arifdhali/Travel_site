@@ -2,7 +2,8 @@ import React from "react";
 import Navbar from "../components/Nabar";
 import Hero from "../components/Hero";
 import AboutImg from "../assets/images/bn-3.jpg";
-import Trip from "../components/Trip";
+import Aboutus from "../components/Aboutus";
+import Footer from "../components/Footer";
 
 const About = () => {
   return (
@@ -20,7 +21,9 @@ const About = () => {
         buttonName="Travel plan"
         btnClass="hide"
       />
-      <Trip />
+      <Aboutus />
+
+      <Footer />
     </>
   );
 };

@@ -1,0 +1,21 @@
+.aboutus {
+    padding: 100px 0;
+}
+
+.aboutus h2 {
+    font-size: 30px;
+    color: #000;
+}
+
+.aboutus p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000 !important;
+}
+
+@media screen and (max-width:992px) {
+    .aboutus {
+        padding: 4rem 1rem;
+    }
+
+}
